@@ -1,0 +1,52 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.nav-btn {
+  @apply block cursor-pointer transition-colors duration-200 text-gray-600 text-xl w-full my-1 text-left pl-10 font-medium rounded-lg p-3;
+}
+
+.nav-btn:hover {
+  @apply bg-gray-300 text-gray-700;
+}
+
+.nav-btn:active {
+  @apply bg-blue-200 text-blue-500;
+}
+
+.active.nav-btn {
+  @apply bg-blue-200 text-blue-500 !important;
+}
+
+.nav-btn-icon {
+  @apply h-6 w-6 inline-flex align-text-bottom mr-2;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-closed {
+    transform: translateX(-100%);
+  }
+  .main-nav-open {
+    transform: translateX(80%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-closed {
+    transform: translateX(-100%);
+  }
+  .main-nav-open {
+    transform: translateX(50%);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .nav-closed {
+    transform: translateX(-100%);
+  }
+  .main-nav-open {
+    transform: translateX(25%);
+  }
+}

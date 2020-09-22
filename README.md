@@ -1,6 +1,6 @@
 # hospitall-dashboard
 ### [Live demo](https://mfarukkoc.github.io/hospitall-dashboard/)
-#### This project build with [TailwindCSS](https://tailwindcss.com/) and [HeroIcons](https://heroicons.dev/)
+#### This project built with [TailwindCSS](https://tailwindcss.com/) and [HeroIcons](https://heroicons.dev/)
 Realization of the design shot from [dribble](https://dribbble.com/shots/14211417-Hospitall-Patient-Dashboard)
 
 
